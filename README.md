@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/envi-cli"><img src="https://img.shields.io/npm/v/envi-cli.svg" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/envi-switch"><img src="https://img.shields.io/npm/v/envi-switch.svg" alt="npm version"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
   <a href="https://github.com/sup3x/envi/actions/workflows/ci.yml"><img src="https://github.com/sup3x/envi/actions/workflows/ci.yml/badge.svg" alt="Node.js CI"></a>
 </p>
@@ -33,7 +33,7 @@
 ## Quick Start
 
 ```bash
-npm install -g envi-cli
+npm install -g envi-switch
 
 cd your-project
 envi init
@@ -229,8 +229,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npx envi-cli init
-      - run: npx envi-cli validate --strict
+      - run: npx envi-switch init
+      - run: npx envi-switch validate --strict
 ```
 
 If any environment is missing variables, the step fails and your PR gets a red check.
