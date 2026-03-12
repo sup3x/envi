@@ -11,10 +11,6 @@
   <a href="https://github.com/sup3x/envi/actions/workflows/ci.yml"><img src="https://github.com/sup3x/envi/actions/workflows/ci.yml/badge.svg" alt="Node.js CI"></a>
 </p>
 
-<p align="center">
-  <!-- Replace with an actual demo GIF: -->
-  <img src="https://raw.githubusercontent.com/sup3x/envi/main/demo.gif" alt="envi demo" width="600">
-</p>
 
 ---
 
