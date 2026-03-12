@@ -1,6 +1,6 @@
 {
   "name": "envi-switch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Universal .env file manager — switch, diff, and validate environments with one command",
   "keywords": ["env", "dotenv", "environment", "cli", "devtools", "configuration", "env-manager"],
   "author": "Kerim Gülen",
